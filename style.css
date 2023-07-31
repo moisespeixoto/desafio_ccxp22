@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: #FFD900;
+    height: 100px;
+}
+header img{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+main{
+    display: grid;
+    grid-auto-flow: column;
+}
+#titulo{
+    text-transform: uppercase;
+    color: #F3C61F;
+    font-size: 58px;
+    padding-bottom: 20px;
+}
+#subtitulo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+#informacoes{
+    background-color: #514988;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 620px;
+    height: 580px;
+}
+#paragrafo{
+    font-size: 25px;
+    color: white;
+    font-weight: normal;
+    margin-top: 70px;
+}
+#cronometro{
+    display: grid;
+    grid-auto-flow: column;
+    color: #514988;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+#subCronometro{
+    font-size: 24px;
+    font-weight: bold;
+    color: #E33881;
+    text-align: left;
+    padding-left: 20px;
+}
+#video{
+    text-align: left;
+}
+#tituloIngresso{
+    color: #F3C61F;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+#ingressos{
+    padding-left: 68px;
+    margin-bottom: 20px;
+}
+#botao{
+    background-color: #514988;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#botao:hover{
+    background-color: #5f578d;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 25px #514988
+}
+footer{
+    display: grid;
+    grid-auto-flow: column;
+}
