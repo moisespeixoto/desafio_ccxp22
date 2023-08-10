@@ -54,14 +54,20 @@
         <p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
     </div>
     <footer id="ingressos">
-        <img src="quinta.svg" alt="">
-        <img src="sexta.svg" alt="">
-        <img src="sabado.svg" alt="">
-        <img src="domingo.svg" alt="">
+        <img src="quinta.svg" onclick="selecCard('#quinta')" class="cards-ingressos" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta" alt="">
+        <img src="sexta.svg" onclick="selecCard('#sexta')" class="cards-ingressos" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="">
+        <img src="sabado.svg" onclick="selecCard('#sabado')" class="cards-ingressos" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="">
+        <img src="domingo.svg" onclick="selecCard('#domingo')" class="cards-ingressos" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo" alt="">
         <div>
-            <input type="text" value="GARANTA O SEU!" id="botao">
+            <button onclick="showSelectedCards()"id="botao">GARANTA O SEU!</button>
         </div>
     </footer>
+    <div>
+        <form action="https://www.google.com.br/">
+            <input type="email" placeholder="Seu e-mail" required/>
+            <input type="submit"/>
+        </form>
+    </div>
 
 <script src="script.js"></script>
 </body>

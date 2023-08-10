@@ -77,13 +77,14 @@ main{
     color: white;
     border: 0;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding: 40px;
     border-radius: 20px;
     width: 350px;
     margin-bottom: 50px;
     margin-top: 50px;
+    cursor: pointer;
 }
 #botao:hover{
     background-color: #5f578d;
@@ -95,3 +96,24 @@ footer{
     display: grid;
     grid-auto-flow: column;
 }
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.card-selected{
+    border: 5px solid green;
+}
+input{
+    background-color: #514988;
+    border-radius: 10px;
+    color: white;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}
+form{
+    background-color: #F3C61F;
+    text-align: center;
+}
+
